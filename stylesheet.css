@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: whitesmoke;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  background-image: url(http://3.bp.blogspot.com/-vDJtW75e2Qk/ToXzp8ILp6I/AAAAAAAABg8/GFJY1t5rX7M/s1600/cars+and+supercars+thewallpaperdb.blogspot.com+%252817%2529.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header .container {
+  margin: 0px 100px 0px 100px;
+}
+
+input[type=text], 
+input[type=password], 
+select, 
+input[type=number], 
+input[type=date] {
+  padding: 10px;
+  width: 200px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+.container {
+  width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 25px;
+  position: fixed;
+  top: 0;
+  text-shadow: 5px 5px 3px rgb(110, 110, 110);
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.header-right ul li:hover {
+  opacity: 0.5;
+}
+
+.card-wrapper {
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin: 187px auto 186px auto;
+  padding: 25px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-wrapper .card-header h2,
+.card-wrapper hr {
+  margin-bottom: 15px;
+}
+
+.card-wrapper .card-subheader p {
+  margin-bottom: 5px;
+}
+
+.card-wrapper .login-wrapper input[type=text],
+.card-wrapper .login-wrapper input[type=password] {
+  margin-bottom: 15px;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpapercave.com/wp/tnXWy3V.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.car-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://walkthru360.com/wp-content/uploads/2017/10/Jidd-Motors-Chicago-Luxury-Auto-Dealer-Mercedes-Showroom-1005.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+}
+
+.car-wrapper h1 {
+  opacity: 0.8;
+  color: black;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.peminjam-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/2019/05/business-communication-feature-image-1.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+}
+
+.peminjam-wrapper h1 {
+  opacity: 0.8;
+  color: white;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.transaksi-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.pinimg.com/originals/f3/9a/51/f39a519a6ac8a8667da66fe8d3404371.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+}
+
+.transaksi-wrapper h1 {
+  opacity: 0.8;
+  color: black;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.about-wrapper {
+  padding: 15px 100px 15px 100px;
+  cursor: context-menu;
+}
+
+.about-wrapper .heading {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.about-wrapper .about {
+  text-align: justify;
+  padding: 0px 25px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 4px;
+  background-color: whitesmoke;
+  transition: 0.3s;
+}
+
+.about-wrapper .about:hover {
+  background-color: white;
+}
+
+.about-wrapper .about h3 {
+  padding: 25px 0px 25px 0px;
+}
+
+.about-wrapper .about p {
+  padding: 10px;
+  line-height: 2;
+}
+
+.about-wrapper .about img {
+  display: block;
+  margin: 15px auto 15px auto;
+  width: 15%;
+  height: 15%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.data-wrapper {
+  padding: 15px 100px 15px 100px;
+  cursor: context-menu;
+}
+
+.login-wrapper .tambah,
+.data-wrapper .tambah {
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  border-radius: 10px;
+  border:1px solid rgb(190, 190, 190);
+  background-color: whitesmoke;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.data-wrapper .tambah:hover {
+  background-color: white;
+}
+
+.data-wrapper .heads hr{
+  margin: 5px 0px 15px 0px;
+}
+
+.data-wrapper .datas {
+  text-align: justify;
+  padding: 25px 25px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 4px;
+  background-color: whitesmoke;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+.data-wrapper .datas .form table {
+  height: auto;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.data-wrapper .datas .form table,
+.data-wrapper .datas .form tr,
+.data-wrapper .datas .form th,
+.data-wrapper .datas .form td {
+  padding: 5px;
+  text-align: left;
+}
+
+.data-wrapper .datas:hover {
+  background-color: white;
+}
+
+.data-wrapper .datas .data table {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(190, 190, 190);
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.data-wrapper .datas .data table,
+.data-wrapper .datas .data tr,
+.data-wrapper .datas .data th,
+.data-wrapper .datas .data td {
+  padding: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  text-align: center;
+}
+
+.agama-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(http://sunnah4holland.nl/wp-content/uploads/2012/10/Makkah-HD-clock-tower-wallpaper-fullHD.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+  margin-bottom: 15px;
+}
+
+.agama-wrapper h1 {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.kwn-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/07/26/763348/79618dd5953c42170bf22cfb7b78f600.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  cursor: context-menu;
+  margin-bottom: 15px;
+}
+
+.kwn-wrapper h1 {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(29, 29, 29);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: context-menu;
+}
+
+footer .copyright {
+  color: white;
+  padding: 40px 25px 25px 25px;
+}
