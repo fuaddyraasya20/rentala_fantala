@@ -1,2 +1,3 @@
-# rentala_fantala
-Sebuah website rental kendaraan mobil, dimana ini adalah tugas akhir milik teman saya, dan saya dipercaya oleh teman saya untuk dapat membantu dia membuatkan sebuah website untuk menyelesaikan tugas akhirnya
+# WEBSITE RENTAL KENDARAAN - RENTALA FANTALA
+
+Sebuah website rental kendaraan yang dibuat dengan menggunakan HTML, CSS, Bahasa Pemrograman PHP, Font Awesome dan Ionicons untuk memperbagus tampilan website. website ini beroperasi dengan menerapkan CRUD data kendaraan, data peminjam / penyewa, dan data transaksi.
